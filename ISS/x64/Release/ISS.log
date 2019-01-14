@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  ISS.cpp
+  ISSDlg.cpp
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(219): warning C4101: 'ii': unreferenced local variable
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(652): warning C4101: 'fps': unreferenced local variable
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(894): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(896): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(929): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\namka\source\repos\iss\iss\issdlg.cpp(942): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+ISSDlg.obj : error LNK2001: unresolved external symbol "class cv::Mat __cdecl cv::imdecode(class cv::_InputArray const &,int)" (?imdecode@cv@@YA?AVMat@1@AEBV_InputArray@1@H@Z)
+ISSDlg.obj : error LNK2001: unresolved external symbol "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+C:\Users\Namka\source\repos\ISS\x64\Release\ISS.exe : fatal error LNK1120: 2 unresolved externals
